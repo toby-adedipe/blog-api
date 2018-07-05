@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import Articles from './components/articles';
+import Bookmarked from './components/bookmarked';
+import Home from './components/home';
 
 class App extends Component {
-  constructor(){
-    super();
-    this.state={
-      speed:10
-    }
-  }
+
   render() {
     return (
-      <div className="App">
-        <h1>10</h1>
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/articles" component={Articles} />
+          <Route path="/bookmarked" component={Bookmarked} />
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
