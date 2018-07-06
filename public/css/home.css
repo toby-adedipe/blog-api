@@ -1,11 +1,13 @@
-.body{
-    text-align: center;
+@font-face {
+    font-family: neutraFace;
+    src: url(../fonts/NeutrafaceCondensed-Light.otf);
 }
-
-.content{
-    box-shadow: 0 10px 6px -6px #777;
+@font-face {
+    font-family: neutraFace;
+    src: url(../fonts/NeutrafaceCondensed-Bold.otf);
+    font-weight: bold;
 }
-
-button{
-    margin: 10px;
+body{
+    font-family: neutraFace;
+    font-size: 50px;
 }
