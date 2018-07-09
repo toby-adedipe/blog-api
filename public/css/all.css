@@ -1,0 +1,45 @@
+@font-face {
+    font-family: neutraFace;
+    src: url(../fonts/NeutrafaceCondensed-Light.otf);
+}
+@font-face {
+    font-family: neutraFace;
+    src: url(../fonts/NeutrafaceCondensed-Bold.otf);
+    font-weight: bold;
+}
+body{
+    font-family: neutraFace;
+    font-size: 50px;
+}
+ul li{
+    list-style: none;
+    border: azure 1px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li a{
+    color: azure;
+}
+.footer{
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width:100vw;
+    background:#999;
+}
+/* Home page */
+.container h4 {
+    padding: 10px;
+    font-size: 30px;
+}
+.container .intro {
+    align-content: center;
+}
+.container .avi{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
