@@ -9,7 +9,6 @@
 }
 body{
     font-family: neutraFace;
-    font-size: 50px;
 }
 ul li{
     list-style: none;
@@ -22,6 +21,7 @@ ul{
 }
 ul li a{
     color: azure;
+    font-size: 40px
 }
 .footer{
     position: fixed;
@@ -33,7 +33,6 @@ ul li a{
 /* Home page */
 .container h4 {
     padding: 10px;
-    font-size: 30px;
 }
 .container .intro {
     align-content: center;
@@ -42,4 +41,15 @@ ul li a{
     width: 200px;
     height: 200px;
     background-color: lightblue;
+}
+
+/*ARTICLES PAGE*/
+.articles {
+    padding: 10px;
+}
+.articles h1 {
+    font-size: 50px;
+}
+.articles p{
+    font-size: 40px;
 }
